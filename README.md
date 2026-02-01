@@ -35,42 +35,42 @@ Welcome to **ParallelPing** — a lightweight portable Windows desktop applicati
 
 
 ### First Launch
-On first launch, ParallelPing loads **5 default targets** for quick testing:
-- Google DNS (8.8.8.8)
-- Cloudflare (1.1.1.1)
-- OpenDNS (208.67.222.222)
-- google.com
-- github.com
+On first launch, ParallelPing opens with an empty target list. 
 
-These targets immediately start pinging every second. You can add, modify, or remove them as needed.
+![Default View](Default_View.png)
 
-![First Launch Screenshot](screenshots/first_launch.png)
+To get started quickly:
+
+1. Go to **File** → **Open Target List** (or press **Ctrl+O**)
+
+![alt text](image.png)
+
+2. Below targets will be loaded to the table:
+   - Google DNS (8.8.8.8)
+   - Cloudflare (1.1.1.1)
+   - OpenDNS (208.67.222.222)
+   - google.com
+   - github.com
+
+![alt text](image-1.png)
+
+3. Click the **Start** button (or press **F5**) to begin pinging
+
+![alt text](image-2.png)
+
+Alternatively, you can manually add targets one-by-one in the box, and click the **Add** button.
+
+![alt text](image-3.png)
+
 *Figure 1: ParallelPing's default interface showing 5 pre-configured targets*
 
 ---
 
 ## Main Interface Overview
 
-![Main Interface Screenshot](screenshots/main_interface.png)
+![alt text](image-4.png)
+
 *Figure 2: Main interface with target list (left) and real-time latency graph (right)*
-
-### Window Layout
-
-```
-┌──────────────────────────────────────────────────┐
-│  ParallelPing - Toolbar                          │
-├──────────────────────┬──────────────────────────┤
-│                      │                          │
-│   Target List        │    Live Latency Graph   │
-│   (Table)            │    (PyQtGraph Plot)     │
-│                      │                          │
-│  • Address           │  • Hover for tooltip    │
-│  • Hostname          │  • Shows exact values   │
-│  • Current Latency   │  • Real-time update     │
-│  • Statistics        │                          │
-│                      │                          │
-└──────────────────────┴──────────────────────────┘
-```
 
 ### Toolbar Buttons
 
