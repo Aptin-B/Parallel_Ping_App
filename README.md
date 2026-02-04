@@ -49,7 +49,7 @@ On first launch, ParallelPing opens with an empty target list. To get started qu
    - **google.com** (Google Search) — ICMP ping
    - **github.com** (GitHub) — ICMP ping
 
-![alt text](image.png)
+![ParallelPing UI](screenshots/image.png)
 
 #### Target File Format
 
@@ -128,14 +128,14 @@ If you prefer to start fresh without sample targets:
 
 ## Main Interface Overview
 
-![alt text](image-1.png)
+![Target List Loaded](screenshots/image-1.png)
 
 
 *Figure: ParallelPing main interface with target list (left) and real-time latency graphs (right)*
 
 ### Toolbar Buttons
 
-![alt text](image-2.png)
+![Start Pinging](screenshots/image-2.png)
 *Figure 3: Main toolbar with all control buttons*
 
 | Button | Function | Shortcut |
@@ -151,7 +151,7 @@ If you prefer to start fresh without sample targets:
 
 ## Managing Targets
 
-![alt text](image-3.png)
+![Add Targets](screenshots/image-3.png)
 *Figure 4: Add Target dialog showing all configuration options*
 
 ### Adding a Target
@@ -166,7 +166,7 @@ The target immediately appears in the table.
 There are two ways to modify target settings:
 
 #### Method 1: Right-Click Context Menu (Properties)
-![alt text](image-4.png)
+![Main Interface](screenshots/image-4.png)
 
 
 
@@ -179,7 +179,7 @@ There are two ways to modify target settings:
 3. Click **Properties...** to open the properties dialog
 
 #### Properties Dialog
-![alt text](image-5.png)
+![Toolbar Buttons](screenshots/image-5.png)
 
 
 
@@ -304,7 +304,7 @@ Targets can be organized into groups for easier management:
 
 The left side of the main window displays all targets with real-time latency statistics, ping results, and status information updated every second. The table provides a detailed view of each target's performance metrics.
 
-![alt text](image-14.png)
+![Properties Dialog](screenshots/image-14.png)
 
 #### Table Overview
 
@@ -364,7 +364,7 @@ The table contains the following columns, organized from left to right:
 #### Hiding the Table
 
 To maximize graph space or focus on statistics only, you can hide the table:
-![alt text](image-15.png)
+![Manage Groups](screenshots/image-15.png)
 
 **Method 1: Click "Hide Table" Button**
 - Located in the **top toolbar** (left side)
@@ -451,7 +451,7 @@ When a TTL change is detected (indicating a BGP route change or failover), a **d
 
 The log response view displays detailed per-target ping logs with timestamps and response details.
 
-![alt text](image-16.png)
+![Hide Table View](screenshots/image-16.png)
 
 #### Accessing Log Responses
 
@@ -528,7 +528,7 @@ Enabling log responses with many targets (10+) and live graphs enabled can signi
 
 ### Live Latency Graph
 
-![alt text](image-13.png)
+![Log Responses Tab](screenshots/image-13.png)
 
 *Figure 5: Real-time latency graph showing multiple targets with hover tooltip*
 
@@ -579,7 +579,7 @@ The right side displays a **real-time plot** of latency over time:
 
 #### Interpreting Multiple Targets on One Graph
 
-![alt text](image-17.png)
+![Export Dialog](screenshots/image-17.png)
 
 When monitoring multiple targets simultaneously:
 
@@ -637,7 +637,7 @@ Live graph rendering with many targets (20+) can significantly impact CPU and GP
 **Recommendation:**
 Enable "Show live graphs" for active monitoring and investigation, but disable it when monitoring large numbers of targets passively. You can always re-enable temporarily to investigate specific events.
 
-![alt text](image-10.png)
+![Traceroute Dialog](screenshots/image-10.png)
 *Figure 5: Real-time latency graph showing multiple targets with hover tooltip*
 
 The right side displays a **real-time plot** of latency over time:
@@ -657,9 +657,9 @@ Move your mouse over the graph to see:
 
 Packet loss is visualized directly on the graph with **red dot markers** positioned on the x-axis (at y=0):
 
-![alt text](image-11.png)
+![Traceroute Progress](screenshots/image-11.png)
 
-![alt text](image-12.png)
+![Traceroute Complete](screenshots/image-12.png)
 
 **How to identify packet loss:**
 - **Red dots on x-axis**: Each red dot represents a ping that timed out (no response)
@@ -726,7 +726,7 @@ The Compare feature allows you to overlay multiple targets on a single graph for
 
 #### Compare Window Overview
 
-![alt text](image-18.png)
+![Traceroute Results](screenshots/image-18.png)
 
 The Compare window displays:
 - **Single unified graph**: All selected targets plotted with different colors
@@ -879,7 +879,7 @@ ParallelPing automatically detects network routing changes by monitoring TTL (Ti
 ```
 
 #### Visual Indicators in Table View
-![alt text](image-6.png)
+![Right-Click Menu](screenshots/image-6.png)
 In the **TTL column** (rightmost), you'll see:
 - **Current TTL value** (e.g., "118", "119")
 - **↑ Arrow** next to value when TTL **increases** (e.g., "119 ↑")
@@ -888,7 +888,7 @@ In the **TTL column** (rightmost), you'll see:
 - **N/A** for TCP pings (TTL only applies to ICMP)
 
 #### Visual Indicators in Graph View
-![alt text](image-7.png)
+![Edit Properties](screenshots/image-7.png)
 
 When a route change is detected, a **dashed orange vertical line** appears on the graph at the exact moment the TTL changed:
 
@@ -938,7 +938,7 @@ Trace the network path to a target to identify bottlenecks and understand the ro
 
 #### Accessing Traceroute
 
-![alt text](image-8.png)
+![Clipboard Context](screenshots/image-8.png)
 
 1. **Right-click** any target in the table
 2. A context menu appears with options:
@@ -950,7 +950,7 @@ Trace the network path to a target to identify bottlenecks and understand the ro
 
 #### Traceroute Results Dialog
 
-![alt text](image-9.png)
+![Context Menu Options](screenshots/image-9.png)
 
 The traceroute dialog displays comprehensive network path information:
 
@@ -1074,7 +1074,7 @@ The traceroute feature (Windows `tracert` command) works by gradually increasing
 
 ### Export Data
 
-![alt text](image-19.png)
+![Save Targets](screenshots/image-19.png)
 
 *Figure 8: Export dialog with format and data selection options*
 
