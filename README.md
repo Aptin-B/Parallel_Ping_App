@@ -1,6 +1,6 @@
 # ParallelPing User Manual
 
-Welcome to **ParallelPing** — a lightweight portable Windows desktop application for monitoring network latency across multiple hosts in real-time. This manual covers installation, basic usage, advanced technical features, and troubleshooting.
+Welcome to **ParallelPing** , a lightweight portable Windows desktop application for monitoring network latency across multiple hosts in real-time. This manual covers installation, basic usage, advanced technical features, and troubleshooting.
 
 ---
 
@@ -123,6 +123,18 @@ If you prefer to start fresh without sample targets:
 4. The target appears in the table immediately
 5. Repeat to add multiple targets
 6. Click **Start All** when ready to begin monitoring
+
+---
+
+> 💡 **Support the Project**
+> 
+> If you find ParallelPing useful and it helps you monitor your network effectively, please consider supporting its development! ☕
+> 
+> 🔗 **[buymeacoffee.com/aptinb](https://buymeacoffee.com/aptinb)**
+> 
+> ![Buy Me a Coffee QR Code](screenshots/bmc_qr.png)
+> 
+> Your support helps maintain ParallelPing with new features, bug fixes, and regular updates. Thank you! 🙏
 
 ---
 
