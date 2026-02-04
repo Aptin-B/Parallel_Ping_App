@@ -132,7 +132,7 @@ If you prefer to start fresh without sample targets:
 > 
 > 🔗 **[buymeacoffee.com/aptinb](https://buymeacoffee.com/aptinb)**
 > 
-> ![Buy Me a Coffee QR Code](screenshots/bmc_qr.png)
+> <img src="screenshots/bmc_qr.png" alt="Buy Me a Coffee QR Code" width="150">
 > 
 > Your support helps maintain ParallelPing with new features, bug fixes, and regular updates. Thank you! 🙏
 
